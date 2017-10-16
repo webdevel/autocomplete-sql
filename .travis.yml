@@ -1,7 +1,7 @@
 language: objective-c
 # node_js:
 #  - 8.5.0
-sudo: false
+#sudo: false
 before_install:
   - . $HOME/.nvm/nvm.sh
   - nvm install 8
@@ -9,9 +9,8 @@ before_install:
 install:
   - npm install
 script:
-  - env
   - npm run test
-  - 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+#  - 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
 branches:
   only:
     - /^feature.*$/
