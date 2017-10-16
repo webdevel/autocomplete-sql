@@ -1,0 +1,29 @@
+language: objective-c
+# node_js:
+#  - 8.5.0
+#sudo: false
+before_install:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install 8
+  - nvm use 8
+install:
+  - npm install
+script:
+  - npm run test
+#  - 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+branches:
+  only:
+    - /^feature.*$/
+    - /^bugfix.*$/
+    - develop
+    - /^hotfix.*$/
+    - master
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+after_success:
+  - npm run coverage
+env:
+  global:
+    secure:   wOzvB9W6nwhtvM3W6KuErkEOVx5caAYPMJlqF8hBU4y6MUuO7EI6g1cp6uwYHCvLP2WjRbpqNBW/hTrP0xo5oHAxNYz7DIXFHfkiCfAAHPtAlh7nR0IxcCtswgsr/Ys6nDzVS7pANyONNo5qkvPmlh1/2WGXxGxTOq+lMyEF2nWlvX6hnQsriKoGDGtB/XY0p+LLdxh2duMqFvrs7UfPgYWT89cZwYJVVTZkGWYNhtrOuWC2Gu3lw7GsrJa2J0OBH87ciXDG66aMTfkjERCLNRbCMKoLgNrnVcO8VSt51svAeN0Qpx8W9+RXLloqTDiFngam1KX9onB3PbJwGZ2mI6UZ07yk/iL49yvnUEXBFRA3Omyrnj/6H80mqq6JEgIWY79mS4jPUAA0Dn6tr6SeUiM8wu6c01/dCaUvCgvMGKHTmgHleQiZRz6IiXKhogMn4d2P2IaSL50Ea0QWuNDWubEhMS7i4RCCN6RLll9HA+XiHjwWJSNOQv8ytrPD8jixG68HNcqe1iXorebIbUG94UXJKNJ2lAdzoiwMQypWmDCZ9FSgBdOMM11UvizBi2h2G1oB1YruAFKbrSFLrgz5QC3KxDzP0m6+fp0CrKp9yDnvZ2r8C0jomz5wPSYGl7xzS5f2VyBBu/QB0L9dgHhgErbO9Af91NgddpHWoha3Vpw=

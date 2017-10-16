@@ -1,0 +1,279 @@
+{
+  "actions": [
+    {
+      "snippet": "ALTER ${1:}",
+      "displayText": "ALTER",
+      "type": "keyword",
+      "description": "Used to add, delete, modify columns, add and drop various constraints in an existing table.",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_alter.asp"
+    },
+    {
+      "snippet": "CREATE ${1:}",
+      "displayText": "CREATE",
+      "type": "keyword",
+      "description": "Create a new table in a database",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_create_table.asp"
+    },
+    {
+      "snippet": "DROP ${1:}",
+      "displayText": "DROP",
+      "type": "keyword",
+      "description": "Drop an existing SQL database",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_drop_db.asp"
+    },
+    {
+      "snippet": "GRANT ${1:}",
+      "displayText": "GRANT",
+      "type": "keyword",
+      "description": "Define privileges and role authorizations",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "REVOKE ${1:}",
+      "displayText": "REVOKE",
+      "type": "keyword",
+      "description": "Destroy privileges and role authorizations",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "CLOSE ${1:}",
+      "displayText": "CLOSE",
+      "type": "keyword",
+      "description": "Close a cursor",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "DECLARE ${1:}",
+      "displayText": "DECLARE",
+      "type": "keyword",
+      "description": "Define a cursor",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "FETCH ${1:}",
+      "displayText": "FETCH",
+      "type": "keyword",
+      "description": "Position a cursor on a specified row of a table and retrieve values from that row",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "FREE ${1:}",
+      "displayText": "FREE",
+      "type": "keyword",
+      "description": "Remove the association between a locator variable and the value that is represented by that locator",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "HOLD ${1:}",
+      "displayText": "HOLD",
+      "type": "keyword",
+      "description": "Mark a locator variable as being holdable",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "OPEN ${1:}",
+      "displayText": "OPEN",
+      "type": "keyword",
+      "description": "Open a cursor",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "SELECT ${1:}",
+      "displayText": "SELECT",
+      "type": "keyword",
+      "description": "Retrieve values from a table",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_select.asp"
+    },
+    {
+      "snippet": "DELETE ${1:}",
+      "displayText": "DELETE",
+      "type": "keyword",
+      "description": "Delete existing records in a table",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_delete.asp"
+    },
+    {
+      "snippet": "INSERT ${1:}",
+      "displayText": "INSERT",
+      "type": "keyword",
+      "description": "Insert new records in a table",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_insert.asp"
+    },
+    {
+      "snippet": "UPDATE ${1:}",
+      "displayText": "UPDATE",
+      "type": "keyword",
+      "description": "Modify the existing records in a table",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_update.asp"
+    },
+    {
+      "snippet": "COMMIT ${1:}",
+      "displayText": "COMMIT",
+      "type": "keyword",
+      "description": "Terminate the current SQL-transaction with commit",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "RELEASE ${1:}",
+      "displayText": "RELEASE",
+      "type": "keyword",
+      "description": "Destroy a savepoint",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "ROLLBACK ${1:}",
+      "displayText": "ROLLBACK",
+      "type": "keyword",
+      "description": "Terminate the current SQL-transaction with rollback, or rollback all actions affecting SQL-data and/or schemas since the establishment of a savepoint",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "SAVEPOINT ${1:}",
+      "displayText": "SAVEPOINT",
+      "type": "keyword",
+      "description": "Establish a savepoint",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "SET ${1:}",
+      "displayText": "SET",
+      "type": "keyword",
+      "description": "Set something",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "START ${1:}",
+      "displayText": "START",
+      "type": "keyword",
+      "description": "Start an SQL-transaction and set its characteristics",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "CONNECT ${1:}",
+      "displayText": "CONNECT",
+      "type": "keyword",
+      "description": "Establish an SQL-session",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "DISCONNECT ${1:}",
+      "displayText": "DISCONNECT",
+      "type": "keyword",
+      "description": "Terminate an SQL-session",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "CALL ${1:}",
+      "displayText": "CALL",
+      "type": "keyword",
+      "description": "Invoke an SQL-invoked routine",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "RETURN ${1:}",
+      "displayText": "RETURN",
+      "type": "keyword",
+      "description": "Return a value from a SQL function",
+      "descriptionMoreURL": ""
+    },
+    {
+      "snippet": "GET ${1:}",
+      "displayText": "GET",
+      "type": "keyword",
+      "description": "Get exception or completion condition information from the diagnostics area",
+      "descriptionMoreURL": ""
+    }
+  ],
+  "logicalOperators": [
+    {
+      "snippet": "ALL ${1:}",
+      "displayText": "ALL",
+      "type": "keyword",
+      "description": "TRUE if all of the subquery values meet the condition",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "AND ${1:}",
+      "displayText": "AND",
+      "type": "keyword",
+      "description": "TRUE if all the conditions separated by AND are TRUE",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "ANY ${1:}",
+      "displayText": "ANY",
+      "type": "keyword",
+      "description": "TRUE if any of the subquery values meet the condition",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "BETWEEN ${1:}",
+      "displayText": "BETWEEN",
+      "type": "keyword",
+      "description": "TRUE if the operand is within the range of comparisons",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "EXISTS ${1:}",
+      "displayText": "EXISTS",
+      "type": "keyword",
+      "description": "TRUE if the subquery returns one or more records",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "IN ${1:}",
+      "displayText": "IN",
+      "type": "keyword",
+      "description": "TRUE if the operand is equal to one of a list of expressions",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "LIKE ${1:}",
+      "displayText": "LIKE",
+      "type": "keyword",
+      "description": "TRUE if the operand matches a pattern",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "NOT ${1:}",
+      "displayText": "NOT",
+      "type": "keyword",
+      "description": "Displays a record if the condition(s) is NOT TRUE",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "OR ${1:}",
+      "displayText": "OR",
+      "type": "keyword",
+      "description": "TRUE if any of the conditions separated by OR is TRUE",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "snippet": "SOME ${1:}",
+      "displayText": "SOME",
+      "type": "keyword",
+      "description": "TRUE if any of the subquery values meet the condition",
+      "descriptionMoreURL": "https://www.w3schools.com/sql/sql_operators.asp"
+    }
+  ],
+  "clauses": [
+    "FROM",
+    "WHERE",
+    "GROUP BY",
+    "HAVING"
+  ],
+  "predicates": [
+    "BETWEEN",
+    "IN",
+    "LIKE",
+    "SIMILAR",
+    "NULL",
+    "EXISTS",
+    "UNIQUE",
+    "MATCH",
+    "OVERLAPS",
+    "DISTINCT",
+    "TYPE"
+  ],
+  "keywords": [],
+  "functions": []
+}
