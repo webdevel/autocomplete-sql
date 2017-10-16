@@ -4,9 +4,12 @@
   "description": "Autocomplete SQL provider for Atom Autocomplete Plus",
   "main": "./lib/main",
   "license": "MIT",
-  "repository": "https://github.com/webdevel/autocomplete-sql",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdevel/autocomplete-sql"
+  },
   "engines": {
-    "atom": ">=1.21.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
     "autocomplete.provider": {
