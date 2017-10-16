@@ -3,7 +3,6 @@ language: objective-c
 #  - 8.5.0
 sudo: false
 before_install:
-  - sudo apt-get -qq update
   - . $HOME/.nvm/nvm.sh
   - nvm install 8
   - nvm use 8
