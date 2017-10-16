@@ -1,0 +1,52 @@
+{
+  "name": "autocomplete-sql",
+  "version": "0.1.0",
+  "description": "Autocomplete SQL provider for Atom Autocomplete Plus",
+  "main": "./lib/main",
+  "license": "MIT",
+  "repository": "https://github.com/webdevel/autocomplete-sql",
+  "engines": {
+    "atom": ">=1.21.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "cross-env": "^5.0.5",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "lib/*"
+    ],
+    "require": [
+      "babel-register"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "scripts": {
+    "test": "cross-env NODE_ENV=test nyc --reporter=text mocha --require babel-register --timeout 9000",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "keywords": [
+    "autocomplete",
+    "sql",
+    "atom",
+    "autocomplete+",
+    "autocomplete-plus",
+    "autocomplete-sql",
+    "mysql"
+  ]
+}

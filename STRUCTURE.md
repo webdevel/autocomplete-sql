@@ -1,0 +1,144 @@
+# SQL Language Structure as it Pertains to Auto-completion
+The goal is to determine all parts of a single SQL Statement and hierarchically group the parts to limit the amount of auto-completion suggestions based on the current SQL Statement context.
+> Note: This document is somewhat of a scratch-pad and in no way formal
+
+## Statement Hierarchy
+- Action
+  - Clause
+  - Keyword
+    - Predicate
+
+## Statement and Parts
+Parts in all capitol letters are KEYWORDS, RESERVED WORDS or FUNCTIONS.
+  - Schema
+    - ALTER
+      - DOMAIN
+      - ROUTINE
+      - TYPE
+      - TABLE
+    - CREATE
+      - ASSERTION
+      - CHARACTER SET
+      - COLLATION
+      - DOMAIN
+      - ORDERING
+      - ROLE
+      - ROUTINE
+      - SCHEMA
+      - TABLE
+      - TRANSFORM
+      - TRANSLATION
+      - TRIGGER
+      - TYPE
+      - VIEW
+    - DROP
+      - ASSERTION
+      - CHARACTER SET
+      - COLLATION
+      - DOMAIN
+      - ORDERING
+      - ROLE
+      - ROUTINE
+      - SCHEMA
+      - TABLE
+      - TRANSFORM
+      - TRANSLATION
+      - TRIGGER
+      - TYPE
+      - VIEW
+    - GRANT
+      - ROLE
+    - REVOKE
+  - Data
+    - CLOSE
+      - CURSOR
+    - DECLARE
+      - CURSOR
+      - LOCAL TEMPORARY TABLE
+    - FETCH
+      - NEXT
+      - PRIOR
+      - FIRST
+      - LAST
+    - FREE
+      - LOCATOR
+    - HOLD
+      - LOCATOR
+    - OPEN
+    - SELECT
+      - FROM
+        - WHERE
+  - DataChange
+    - DELETE
+      - CURSOR
+      - FROM
+        - WHERE
+    - INSERT
+      - INTO
+    - UPDATE
+      - CURSOR
+      - SET
+      - WHERE
+  - Transaction
+    - COMMIT
+      - WORK
+    - RELEASE
+      - SAVEPOINT
+    - ROLLBACK
+      - WORK
+    - SAVEPOINT
+    - SET
+      - TRANSACTION
+      - CONSTRAINT
+    - START
+      - TRANSACTION
+  - Connection
+    - CONNECT
+    - DISCONNECT
+    - SET
+      - CONNECTION
+  - Control
+    - CALL
+    - RETURN
+  - Session
+    - SET
+      - ROLE
+      - SESSION AUTHORIZATION
+      - SESSION CHARACTERISTICS
+      - TIME ZONE
+  - Diagnostic
+    - GET
+      - DIAGNOSTICS
+- Condition
+- Assignment
+- Clause
+- Expression
+  - Boolean
+  - Bit
+  - Comparison
+  - Predicate
+  - Simple
+    - Literal
+      - String
+      - Number
+    - Identifier
+      - Database
+      - Table
+      - Column
+    - Function
+      - Built-in
+    - Variable
+      - User
+      - System
+    - Subquery
+    - Match
+    - Case
+    - Interval
+- SetQuantifier
+  - DISTINCT
+  - ALL
+
+### References
+[SQL 99 Specification]
+
+[SQL 99 Specification]: http://web.cecs.pdx.edu/~len/sql1999.pdf
