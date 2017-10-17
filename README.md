@@ -8,7 +8,7 @@
 *[Autocomplete SQL]* provider for *[Atom]* *[Autocomplete Plus]*
 
 ### Contributing
-Please feel free to submit pull requests, issues and comments! Thank you. Contributors will be added to [Contributors.md]
+Please feel free to submit pull requests, issues and comments! Thank you. Please read [Contributing]. Participants will be added to the list of [Contributors].
 
 ### Dependencies
 *[Autocomplete SQL]* is an *[Atom]* *[Autocomplete+]* provider and requires *[Autocomplete+]* to be installed. *[Autocomplete+]* is currently bundled with *[Atom]* by default.
@@ -20,4 +20,5 @@ Please feel free to submit pull requests, issues and comments! Thank you. Contri
 [Autocomplete Plus]: https://github.com/atom/autocomplete-plus
 [Autocomplete+]: https://github.com/atom/autocomplete-plus
 [Autocomplete SQL]: https://github.com/webdevel/autocomplete-sql
-[Contributors.md]: https://github.com/webdevel/autocomplete-sql/blob/master/CONTRIBUTORS.md
+[Contributors]: https://github.com/webdevel/autocomplete-sql/blob/master/CONTRIBUTORS.md
+[Contributing]: https://github.com/webdevel/autocomplete-sql/blob/master/CONTRIBUTING.md
