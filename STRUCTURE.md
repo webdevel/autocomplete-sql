@@ -19,6 +19,7 @@ Parts in all capitol letters are KEYWORDS, RESERVED WORDS or FUNCTIONS.
     - CREATE
       - ASSERTION
       - CHARACTER SET
+      - CAST
       - COLLATION
       - DOMAIN
       - ORDERING
@@ -47,13 +48,10 @@ Parts in all capitol letters are KEYWORDS, RESERVED WORDS or FUNCTIONS.
       - TYPE
       - VIEW
     - GRANT
-      - ROLE
     - REVOKE
   - Data
     - CLOSE
-      - CURSOR
     - DECLARE
-      - CURSOR
       - LOCAL TEMPORARY TABLE
     - FETCH
       - NEXT
