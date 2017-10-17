@@ -16,7 +16,7 @@ Please read and use the [Issue Template].
 Please submit an issue with a <kbd>**[suggest]**</kbd> label to suggest a feature or enhancement.
 
 ### Documentation
-Please be consise in writing documentation and use [Markdown]. Command line instructions are preferred over GUI information. Please use the <kbd>**[documentation]**</kbd> label.
+Please be concise in writing documentation and use [Markdown]. Command line instructions are preferred over GUI information. Please use the <kbd>**[documentation]**</kbd> label.
 
 ### Git Commit Messages
 - Use the present tense ("Add feature" not "Added feature")
