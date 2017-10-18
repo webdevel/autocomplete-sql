@@ -7,6 +7,19 @@
 
 *[Autocomplete SQL]* provider for *[Atom]* *[Autocomplete Plus]*
 
+### Installing
+You may choose your preferred method of installation.
+###### Command Line APM
+`apm install autocomplete-sql`
+###### Atom GUI
+`Atom->Settings->Install->Search autocomplete-sql`
+###### Command Line Git
+You will have to know the location of the Atom configuration directory for your operating system. The default locations for Windows, MacOS, Linux are `%USERPROFILE%\.atom` and `~/.atom` respectively. After cloning the package, you will have to restart Atom which will automatically load it.
+```sh
+cd .atom/packages
+git clone git@github.com:webdevel/autocomplete-sql.git
+```
+
 ### Contributing
 Please read [Contributing]. Feel free to submit pull requests, issues and comments! Thank you. Participants will be added to the list of [Contributors].
 
