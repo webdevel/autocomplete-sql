@@ -1,6 +1,6 @@
 {
   "name": "autocomplete-sql",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Autocomplete SQL provider for Atom Autocomplete Plus",
   "main": "./lib/main",
   "license": "MIT",
